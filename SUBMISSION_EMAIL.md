@@ -54,6 +54,7 @@ Built with: Next.js, TypeScript, Tailwind CSS, Vercel, Qloo
 
 Links:
 - Live demo: https://swapcast-tau.vercel.app/
+- Demo video: https://www.youtube.com/watch?v=B9qAJ9D5XDQ
 - Public repo: https://github.com/vikassharma270907-alt/swapcast (MIT license)
 
 I completely understand if the late timing means it can't be formally judged.

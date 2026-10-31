@@ -1,0 +1,136 @@
+1
+00:00:00,000 --> 00:00:05,800
+Welcome to Swapcast: the AI-powered growth platform that finds the podcasts that should be promoting yours.
+
+2
+00:00:05,800 --> 00:00:12,100
+According to Buzzsprout statistics, the median podcast episode gets just 27 downloads in its first week.
+
+3
+00:00:12,100 --> 00:00:19,400
+For independent creators and small networks, the single best free way to grow is a promo swap--where two shows introduce each other to their listeners.
+
+4
+00:00:19,400 --> 00:00:25,400
+Yet today, finding the right partner is pure guesswork. Creators either pitch blindly or ask giant shows that will never reply.
+
+5
+00:00:25,700 --> 00:00:33,500
+If you ask a standard large language model who to swap with, it hallucinates the biggest shows in your genre--like Joe Rogan, Huberman Lab, or Lex Fridman.
+
+6
+00:00:33,500 --> 00:00:39,800
+These giant shows are completely unreachable, and in the same lane, they compete directly with your audience.
+
+7
+00:00:39,800 --> 00:00:48,500
+A high-converting swap partner must satisfy three criteria simultaneously: they must be your size, occupy an adjacent non-competing lane, and their listeners must like your show back.
+
+8
+00:00:48,500 --> 00:00:55,400
+A plain language model cannot verify any of this. Only a real cultural taste graph can. That is why Swapcast is powered by Qloo.
+
+9
+00:00:55,700 --> 00:01:03,200
+Swapcast is built on Next.js App Router, TypeScript, and Tailwind, driven by an agent pipeline that leverages five distinct Qloo capabilities.
+
+10
+00:01:03,200 --> 00:01:08,100
+First, the user resolves and confirms their exact show entity via Qloo Search.
+
+11
+00:01:08,100 --> 00:01:15,300
+The pipeline extracts the listener taste profile using tag insights, then queries peer shows bounded tightly inside the host's popularity band.
+
+12
+00:01:15,300 --> 00:01:18,500
+If peers are thin, the agent automatically widens the band.
+
+13
+00:01:18,500 --> 00:01:25,800
+Then, it runs reverse queries on each top candidate, pulls cross-domain brand affinities, and streams every step live over an NDJSON trace.
+
+14
+00:01:26,100 --> 00:01:34,800
+A fundamental technical hurdle with recommendation APIs is that raw affinity scores are normalized inside each query, so raw scores cannot be compared across different API calls.
+
+15
+00:01:34,800 --> 00:01:39,200
+Swapcast solves this with a novel rank-based, weakest-link scoring engine.
+
+16
+00:01:39,200 --> 00:01:46,800
+We calculate the candidate's forward rank in the host's audience, and run the query in reverse to check the host's rank in the candidate's audience.
+
+17
+00:01:46,800 --> 00:01:50,800
+We sort by the weakest link: the maximum of forward and reverse rank.
+
+18
+00:01:50,800 --> 00:01:54,300
+When both ranks fall within the top fifteen, Swapcast certifies it as a verified Two-Way Mutual Match.
+
+19
+00:01:54,500 --> 00:01:57,800
+Here is Swapcast in action with This Week in Startups.
+
+20
+00:01:57,800 --> 00:02:02,900
+The agent resolves the show and presents verified peers within the creator's exact size band.
+
+21
+00:02:02,900 --> 00:02:12,800
+Look at the top match: The Twenty Minute VC. Qloo ranks them number two for our audience, and reverse analysis confirms we rank number three for theirs--a genuine reciprocal fit.
+
+22
+00:02:12,800 --> 00:02:18,200
+Adjacent lanes receive a promo swap suggestion, while identical lanes get a guest swap recommendation.
+
+23
+00:02:18,200 --> 00:02:23,500
+Our Counterfactual Panel on the right proves the difference: naive popularity search suggests giant unrelated programs that never convert.
+
+24
+00:02:23,700 --> 00:02:27,800
+Finding the partner is only half the battle; closing the deal is the rest.
+
+25
+00:02:27,800 --> 00:02:39,200
+Swapcast automatically drafts personalized outreach pitches with the verified Qloo metrics baked into the copy--including shared audience tags, proposed formats, and tracking link reminders for mutual lift measurement.
+
+26
+00:02:39,200 --> 00:02:49,800
+Simultaneously, Swapcast uses Qloo's cross-domain entity engine to pull brand affinities, categorizing sponsor leads into reachable mid-market brands like Linear, Vanta, and Mercury, alongside household giants.
+
+27
+00:02:49,800 --> 00:02:53,700
+Creators unlock both collaborative audience growth and monetization opportunities in one single run.
+
+28
+00:02:54,000 --> 00:02:58,100
+We engineered Swapcast with rigorous production-grade reliability.
+
+29
+00:02:58,100 --> 00:03:08,400
+If the LLM provider experiences network latency or downtime, our deterministic fallback pipeline takes over instantly, executing the full Qloo ranking algorithm and generating pre-validated pitch templates.
+
+30
+00:03:08,400 --> 00:03:19,700
+All Qloo API credentials remain strictly server-isolated, reverse queries execute in parallel with a six-hour in-memory TTL cache to stay well within serverless timeouts, and every single metric rendered in the UI comes directly from verified Qloo responses.
+
+31
+00:03:20,000 --> 00:03:27,800
+The podcast advertising industry surpassed 2.9 billion dollars last year, with over two million active podcasters eager for growth.
+
+32
+00:03:27,800 --> 00:03:38,400
+Swapcast monetizes through a freemium creator tier, a Pro tier with tracking links and a partner CRM, and a B2B white-label Grow tab designed for hosting platforms like Buzzsprout and Spotify for Podcasters.
+
+33
+00:03:38,400 --> 00:03:44,500
+Swapcast transforms Qloo's cultural taste graph into the single most valuable asset a creator can have: the right partner, the mathematical proof, and the pitch to win them.
+
+34
+00:03:44,500 --> 00:03:46,500
+Thank you.
+
