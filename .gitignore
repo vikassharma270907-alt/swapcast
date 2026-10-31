@@ -1,0 +1,22 @@
+node_modules
+.next
+out
+.env*
+!.env.example
+*.log
+.DS_Store
+.vercel
+probe-*.json
+qloo-*.json
+
+# Local Kiro permission helper scripts (not part of the project)
+scripts/set-kiro-allow-all.ps1
+scripts/restore-kiro-permissions.ps1
+
+# Not part of the Swapcast submission (stray workspace files)
+install-ecc-kiro.ps1
+ecc-install-manifest.txt
+ecc-test-probe/
+.github/
+BLUEPRINT.md
+RESEARCH.md

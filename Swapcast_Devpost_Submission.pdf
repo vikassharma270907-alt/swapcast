@@ -1,0 +1,177 @@
+%PDF-1.4
+%ту╧╙
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R] /Count 4 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Length 3858 >>
+stream
+BT /F2 20 Tf 0.1 0.12 0.16 rg 54.00 734.00 Td (S) Tj ET
+BT /F2 15 Tf 0.1 0.12 0.16 rg 54.00 681.00 Td (P) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 54.00 656.75 Td (S) Tj ET
+BT /F2 15 Tf 0.1 0.12 0.16 rg 54.00 622.58 Td (E) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 54.00 598.33 Td (Swapcast finds podcasts your size whose listeners like yours, checks that yours like them back, drafts the) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 54.00 584.15 Td (promo-swap pitch with Qloo evidence, and lists sponsor leads.) Tj ET
+54 557.98 m 558.00 557.98 l 0.6 w 0.6 0.6 0.6 RG S
+BT /F2 15 Tf 0.1 0.12 0.16 rg 54.00 533.98 Td (I) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 54.00 509.73 Td (The median podcast episode gets about 27 downloads in its first week \(Buzzsprout, Sep 2026\). We kept) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 54.00 495.55 Td (hearing the same advice for growing a small show: do a promo swap, where two shows promote each) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 54.00 481.38 Td (other. It is the best free growth tactic, and platforms like Spotify recommend it. But it only works with the) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 54.00 467.20 Td (right partner, one who is roughly your size, sits in an adjacent lane instead of competing head-on, and) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 54.00 453.03 Td (whose audience actually likes your show back. Finding that partner is pure guesswork today. A plain LLM) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 54.00 438.85 Td (just lists the famous shows in your genre, and those shows are too big to say yes and compete with you) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 54.00 424.68 Td (directly. We wanted a tool that uses a real taste graph to answer the question a podcaster actually has:) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 54.00 410.50 Td ("Who should I swap with, what do I offer, and how do I ask?") Tj ET
+BT /F2 15 Tf 0.1 0.12 0.16 rg 54.00 376.33 Td (W) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 352.08 Td (- Finds partners your size. You pick your show \(you confirm the exact match, the agent never) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 78.40 337.90 Td (guesses\). Swapcast pulls podcasts whose listeners overlap yours, filtered to a popularity band around) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 78.40 323.73 Td (your own size so the suggestions are reachable.) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 307.55 Td (- Checks the fit both ways. For each candidate it runs the query in reverse to see where *your* show) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 78.40 293.38 Td (ranks in *their* listeners' list. A two-way match \(strong in both directions\) is flagged separately from) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 78.40 279.20 Td (a one-sided one.) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 263.03 Td (- Drafts the pitch. Each partner gets an editable, copyable promo-swap or guest-swap pitch with the) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 78.40 248.85 Td (Qloo evidence baked in and a tracking-link reminder so both sides can measure lift.) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 232.68 Td (- Surfaces sponsor leads. It lists brands your listeners already favor, split into reachable vs household) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 78.40 218.50 Td (names.) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 54.00 196.33 Td (T) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 54.00 174.15 Td (The agent loop: resolve show т' listener taste profile т' peer shows in your size band \(widen the band if) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 54.00 159.98 Td (too few\) т' reverse two-way rank checks on the top candidates т' sponsor brands т' rank by weakest-link) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 54.00 145.80 Td (and draft pitches.) Tj ET
+BT /F2 15 Tf 0.1 0.12 0.16 rg 54.00 111.63 Td (W) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 54.00 87.37 Td (S) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 71.20 Td (-) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 4854 >>
+stream
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 738.00 Td (-) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 721.83 Td (- 3. /v2/insights on urn:entity:podcast with a filter.popularity.min/max band to find peers your size, not) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 78.40 707.65 Td (just the biggest shows in the genre. The agent widens the band \(0.05 т' 0.10 т' 0.20\) when peers are) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 78.40 693.48 Td (thin and logs that decision.) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 677.30 Td (- 4. Reverse insights queries per candidate to compute a two-way rank т" a non-obvious use of the) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 78.40 663.13 Td (taste graph that checks whether their listeners like you back, not just the other way around.) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 646.95 Td (-) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 54.00 624.78 Td (Scoring uses ranks inside a shared size band rather than raw affinity scores, because Qloo normalizes) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 54.00 610.60 Td (affinity within each query, so ranks compare cleanly while raw scores across queries do not. We sort by) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 54.00 596.43 Td (weakest = max\(fwdRank, revRank ?? 51\).) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 54.00 574.25 Td (If it would work the same without Qloo, it is the wrong thing. Remove Qloo and there is nothing left: no size) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 54.00 560.08 Td (band, no two-way check, no cross-domain brands. \(Remove the LLM and it still works т" the) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 54.00 545.90 Td (deterministic pipeline produces every ranking and falls back to template pitches. Only the pitch prose is) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 54.00 531.73 Td (lost.\)) Tj ET
+BT /F2 15 Tf 0.1 0.12 0.16 rg 54.00 497.55 Td (H) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 473.30 Td (- Next.js \(App Router\) + TypeScript + Tailwind, one repo for UI and server routes, deployed on) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 78.40 459.13 Td (Vercel.) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 442.95 Td (- Server-only Qloo client \(lib/qloo.ts\): X-Api-Key header, 8s timeout, two retries with backoff on) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 78.40 428.78 Td (429/5xx, a 6-hour in-memory TTL cache keyed by request, and a trace callback that never logs the) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 78.40 414.60 Td (key.) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 398.43 Td (- Agent pipeline \(lib/pipeline.ts\): the tool loop with band widening, parallel reverse-rank checks, and a) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 78.40 384.25 Td (deterministic fallback that runs the same steps if the model is slow or unavailable.) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 368.08 Td (- Scoring \(lib/scoring.ts\): weakest-link ranking, Jaccard on genre tags to decide same-lane \(guest) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 78.40 353.90 Td (swap\) vs adjacent-lane \(promo swap\), size-match labels.) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 337.73 Td (-) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 321.55 Td (- Guards: every cited ID comes from a Qloo result; numbers shown in the UI come from the server,) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 78.40 307.38 Td (never from LLM free text. Keys are server-only, .env* is gitignored, and no Qloo response data is) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 78.40 293.20 Td (committed.) Tj ET
+BT /F2 15 Tf 0.1 0.12 0.16 rg 54.00 259.03 Td (C) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 234.78 Td (- Comparing affinity across queries. Qloo normalizes affinity within each query, so raw scores are not) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 78.40 220.60 Td (comparable across calls. We switched to rank-based scoring inside a shared popularity band, which is) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 78.40 206.43 Td (both correct and easier for a user to read.) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 190.25 Td (- Thin peer results for some shows. Small or niche shows returned few peers in a tight band, so the) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 78.40 176.08 Td (agent widens the band in steps and records why in the trace.) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 159.90 Td (- Latency inside a serverless timeout. Reverse checks multiply the number of calls, so we run them in) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 78.40 145.73 Td (parallel, cap take, cache aggressively, and stream partial progress to stay well under the limit.) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 129.55 Td (- Keeping evidence honest. We separated "Qloo says" \(ranks, tags, brands\) from "Swapcast suggests") Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 78.40 115.38 Td (\(format, pitch\) throughout the UI so nothing reads as a claim about an individual listener.) Tj ET
+BT /F2 15 Tf 0.1 0.12 0.16 rg 54.00 81.20 Td (W) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 2549 >>
+stream
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 738.00 Td (- Two-way \(reverse\) querying turns a recommendation API into a genuine matching tool т" it is the) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 78.40 723.83 Td (single most useful thing we did with Qloo.) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 707.65 Td (- Popularity bands are the difference between "name-drop the biggest show in the genre" and "find a) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 78.40 693.48 Td (partner who might actually say yes.") Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 677.30 Td (- A deterministic fallback is not just a safety net; it forced a clean separation between facts \(from Qloo\)) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 78.40 663.13 Td (and prose \(from the LLM\), which made the whole product more trustworthy.) Tj ET
+BT /F2 15 Tf 0.1 0.12 0.16 rg 54.00 628.95 Td (W) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 604.70 Td (-) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 588.53 Td (- A "Plain LLM vs Swapcast" panel showing judges the gap between a model's guess and) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 78.40 574.35 Td (evidence-backed matches.) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 558.18 Td (-) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 542.00 Td (- A white-label "Grow" tab for podcast hosting platforms, and later an opt-in swap-and-sponsor) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 78.40 527.83 Td (marketplace.) Tj ET
+BT /F2 15 Tf 0.1 0.12 0.16 rg 54.00 493.65 Td (L) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 469.40 Td (-) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 453.23 Td (-) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 437.05 Td (-) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 420.88 Td (-) Tj ET
+54 394.70 m 558.00 394.70 l 0.6 w 0.6 0.6 0.6 RG S
+BT /F2 15 Tf 0.1 0.12 0.16 rg 54.00 370.70 Td (B) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 54.00 346.45 Td (n) Tj ET
+BT /F2 15 Tf 0.1 0.12 0.16 rg 54.00 312.28 Td (L) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 288.03 Td (-) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 271.85 Td (-) Tj ET
+BT /F2 15 Tf 0.1 0.12 0.16 rg 54.00 237.68 Td (S) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 213.43 Td (-) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 197.25 Td (-) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 181.08 Td (-) Tj ET
+54 154.90 m 558.00 154.90 l 0.6 w 0.6 0.6 0.6 RG S
+BT /F2 15 Tf 0.1 0.12 0.16 rg 54.00 130.90 Td (S) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 106.65 Td (-) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 90.48 Td (-) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 74.30 Td (-) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 290 >>
+stream
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 738.00 Td (-) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 721.83 Td (-) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 705.65 Td (-) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 689.48 Td (-) Tj ET
+BT /F1 10.5 Tf 0.1 0.12 0.16 rg 70.00 673.30 Td (-) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 11 0 R >>
+endobj
+xref
+0 13
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000141 00000 n 
+0000000238 00000 n 
+0000000340 00000 n 
+0000004249 00000 n 
+0000004385 00000 n 
+0000009290 00000 n 
+0000009426 00000 n 
+0000012026 00000 n 
+0000012163 00000 n 
+0000012504 00000 n 
+trailer
+<< /Size 13 /Root 1 0 R >>
+startxref
+12642
+%%EOF
