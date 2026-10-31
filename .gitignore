@@ -17,7 +17,6 @@ scripts/restore-kiro-permissions.ps1
 install-ecc-kiro.ps1
 ecc-install-manifest.txt
 ecc-test-probe/
-.github/
 BLUEPRINT.md
 RESEARCH.md
 
