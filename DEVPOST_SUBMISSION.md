@@ -70,8 +70,8 @@ Scoring uses ranks inside a shared size band rather than raw affinity scores, be
 nextjs, typescript, tailwindcss, vercel, qloo
 
 ## Links
-- **Live demo:** _add your Vercel URL — test it in a private window_
-- **Public repo:** _add your GitHub URL — LICENSE at root so "MIT license" shows in About_
+- **Live demo:** https://swapcast-tau.vercel.app/
+- **Public repo:** https://github.com/vikassharma270907-alt/swapcast
 
 ## Screenshots to upload (3)
 1. The Swap Board with two-way match badges.
@@ -81,11 +81,15 @@ nextjs, typescript, tailwindcss, vercel, qloo
 ---
 
 ## Submission checklist (verify in a private window)
-- [ ] Demo works end to end without logging in
-- [ ] Repo is public
-- [ ] MIT license visible in the repo About section
-- [ ] No secrets committed (run a search for your key before pushing)
-- [ ] No Qloo response JSON committed
+- [x] Repo is public — https://github.com/vikassharma270907-alt/swapcast
+- [x] No secrets committed — `.env.local` gitignored; `git ls-files` confirms the key file is untracked; `git grep` against the committed tree found no key
+- [x] No Qloo response JSON committed — `probe-*.json` / `qloo-*.json` gitignored; only hand-authored `lib/demo.ts` sample data is in the repo
+- [x] Production build passes — `next build` green (compile + type-check + static gen)
+- [x] Qloo API verified live — `/search` and `/v2/insights` both return real data with the committed parsing
+- [x] Live demo deployed — https://swapcast-tau.vercel.app/
+- [ ] Demo works end to end without logging in — **verify in a private window (see check below)**
+- [ ] MIT license visible in the repo About section — confirm GitHub detected `LICENSE` (set license in repo Settings → General if the About box is blank)
+- [ ] Live demo URL added to this file and the README header
 - [ ] Description filled in (all sections above)
 - [ ] Every team member added on Devpost
 - [ ] Clicked **Submit**, not just Save

@@ -2,12 +2,9 @@
 
 **Find the podcasts that should be promoting yours.**
 
-[![CI](https://github.com/<you>/swapcast/actions/workflows/ci.yml/badge.svg)](https://github.com/<you>/swapcast/actions/workflows/ci.yml)
+[![CI](https://github.com/vikassharma270907-alt/swapcast/actions/workflows/ci.yml/badge.svg)](https://github.com/vikassharma270907-alt/swapcast/actions/workflows/ci.yml)
 
-Live demo: _add your Vercel URL here_ · License: MIT
-
-> Replace `<you>/swapcast` in the badge URL above with your GitHub
-> `owner/repo` once pushed.
+Repo: https://github.com/vikassharma270907-alt/swapcast · Live demo: https://swapcast-tau.vercel.app/ · License: MIT
 
 > Add screenshots (Swap Board, pitch modal, agent trace) to `docs/` and link
 > them here before submitting — judges look for a working visual.
@@ -15,6 +12,26 @@ Live demo: _add your Vercel URL here_ · License: MIT
 Swapcast finds podcasts your size whose listeners like your show, checks that
 the fit goes both ways with Qloo, drafts the promo-swap pitch with the evidence
 baked in, and lists the brands your listeners already favor as sponsor leads.
+
+---
+
+## Screenshots
+
+> Capture these from the live deployment (mode badge "Live Qloo"), save them in
+> `docs/` with the names below, then push. See [`docs/README.md`](docs/README.md)
+> for a capture checklist.
+
+**Swap Board** — five size-matched partners, each with a two-way / one-sided badge and the Qloo rank evidence (`#fwdRank · #revRank`):
+
+![Swapcast Swap Board showing five recommended partner podcasts, each with a two-way-match or one-sided badge and the Qloo forward and reverse rank evidence](docs/swap-board.png)
+
+**Agent trace** — the live log of every Qloo call the run makes, proving the results are grounded:
+
+![Swapcast agent trace panel listing step messages and live Qloo GET /v2/insights calls with HTTP 200 status and response times](docs/agent-trace.png)
+
+**Pitch modal** — the drafted outreach the podcaster sends, with a one-click copy:
+
+![Swapcast pitch modal showing a drafted promo-swap outreach message for one partner with a Copy pitch button](docs/pitch-modal.png)
 
 ---
 
@@ -157,13 +174,15 @@ git grep -n -F $env:OPENAI_API_KEY
 ### 2. Push to a public GitHub repo
 
 ```bash
-git init
 git add .
 git commit -m "Swapcast"
 git branch -M main
-git remote add origin https://github.com/<you>/swapcast.git
+git remote add origin https://github.com/vikassharma270907-alt/swapcast.git
 git push -u origin main
 ```
+
+> Already pushed to https://github.com/vikassharma270907-alt/swapcast — this
+> section is kept for reference / re-cloning.
 
 Make sure the repo visibility is **Public** and that GitHub's About box shows
 "MIT license".
