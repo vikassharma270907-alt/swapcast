@@ -20,3 +20,13 @@ ecc-test-probe/
 .github/
 BLUEPRINT.md
 RESEARCH.md
+
+# Browser/tooling temp
+.chrometmp/
+
+# Demo video + generation artifacts (large binaries, not source)
+Swapcast_Demo_Video.mp4
+video_assets/
+test_rate.mp3
+scripts/generate_demo_video.py
+scripts/test_dur.py
